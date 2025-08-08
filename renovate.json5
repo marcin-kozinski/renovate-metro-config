@@ -8,9 +8,9 @@
       "description": [
         "Group Kotlin compiler plugins with Kotlin.",
       ],
-      "matchSourceUrls": [
-        "https://github.com/JetBrains/kotlin",
-        "https://github.com/ZacSweers/metro",
+      "matchPackageNames": [
+        "org.jetbrains.kotlin*",
+        "dev.zacsweers.metro:dev.zacsweers.metro.gradle.plugin",
       ],
       "groupName": "kotlin compiler plugins",
     }
