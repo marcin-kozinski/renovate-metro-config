@@ -3,4 +3,16 @@
   "extends": [
     "config:best-practices",
   ],
+  "packageRules": [
+    {
+      "description": [
+        "Group Kotlin compiler plugins with Kotlin.",
+      ],
+      "matchSourceUrls": [
+        "https://github.com/JetBrains/kotlin",
+        "https://github.com/ZacSweers/metro",
+      ],
+      "groupName": "kotlin compiler plugins",
+    }
+  ]
 }
